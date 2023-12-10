@@ -1,19 +1,19 @@
 body {
-  background-image: url("bg-header-pattern.png");
-  background-size: 30px;
+  background-color: rgb(238, 236, 236);
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   align-items: center;
   justify-items: center;
 }
-
 .container {
-  border: 2px solid rgb(255, 140, 0);
+  border: 2px solid rgb(7, 200, 7);
   /* border: 2px solid greenyellow; */
   border-radius: 10px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: -5px 5px 8px rgba(183, 183, 183, 0.5),
+    /*left and bottom*/ 5px 5px 8px rgba(183, 183, 183, 0.5); /*right and bottom*/
 }
-
 .container form {
   padding: 70px 0px 70px 0px;
   background-color: white;
@@ -29,7 +29,6 @@ body {
   justify-items: center;
   justify-content: space-evenly;
 }
-
 .Roboto {
   font-family: "Roboto", sans-serif;
   color: rgb(66, 66, 66);
@@ -40,7 +39,7 @@ input {
   height: 25px;
   margin: 2px 2px 2px -1px;
   /* outline: none; */
-  outline-color: rgb(255, 98, 0);
+  outline-color: rgb(35, 222, 2);
   outline-width: 1px;
   border-radius: 5px;
   /* background-color: #E2CFEA; */
@@ -59,10 +58,9 @@ input[type="submit"] {
   width: 20em;
   height: 50px;
   color: white;
-  background-color: rgb(255, 98, 0);
+  background-color: rgb(35, 222, 2);
   font-family: "Roboto", sans-serif;
   font-size: large;
-  cursor: pointer;
 }
 
 .register {
@@ -73,7 +71,7 @@ input[type="submit"] {
   /* color:#6247AA; */
   font-weight: bold;
   word-spacing: 2px;
-  color: white;
+  color: rgb(66, 66, 66);
 }
 
 .row {
@@ -89,7 +87,6 @@ input[type="submit"] {
 .col {
   margin-bottom: 30px;
 }
-
 #col7 input,
 #col8 input {
   width: 32.5em;
@@ -101,7 +98,7 @@ input[type="submit"] {
   height: 30px;
   margin: 2px 2px 2px -1px;
   /* outline: none; */
-  outline-color: #6247aa;
+  outline-color: rgb(35, 222, 2);
   border-radius: 5px;
   /* background-color: #E2CFEA; */
   background-color: white;
@@ -109,9 +106,8 @@ input[type="submit"] {
   /* border-bottom: 2px solid #6247AA;
     border-bottom: 2px solid black; */
 }
-
 #address {
   border-radius: 5px;
-  outline-color: rgb(255, 98, 0);
+  outline-color: rgb(35, 222, 2);
   margin: 2px 2px 2px -1px;
 }

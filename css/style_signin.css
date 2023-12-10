@@ -1,7 +1,5 @@
-body {
-  background-image: url("bg-header-pattern.png");
-  background-size: 30px;
-
+    body {
+  background-color: rgb(238, 236, 236);
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -9,10 +7,13 @@ body {
   justify-items: center;
 }
 
-.container {
-  border: 2px solid rgb(255, 140, 0);
+.container{
+  border: 2px solid rgb(7, 200, 7);
   /* border: 2px solid greenyellow; */
   border-radius: 10px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: -5px 5px 8px rgba(183, 183, 183, 0.5), /*left and bottom*/
+            5px 5px 8px rgba(183, 183, 183, 0.5); /*right and bottom*/
 }
 
 .container form {
@@ -74,7 +75,7 @@ input[type="submit"] {
   outline: none;
   width: 6.8em;
   color: white;
-  background-color: rgb(255, 98, 0);
+  background-color: rgb(35, 222, 2);
   font-family: "Roboto", sans-serif;
   font-size: large;
   cursor: pointer;
@@ -85,7 +86,7 @@ input[type="submit"] {
   padding-bottom: 20px;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
-  color: white;
+  color:rgb(66, 66, 66);
   font-weight: bold;
   word-spacing: 2px;
 }
@@ -102,7 +103,7 @@ i {
   width: 57%;
 }
 
-.box2 button {
+.box2 button{
   margin-left: 10px;
   padding: 10px 5px;
   border: none;
@@ -110,13 +111,13 @@ i {
   outline: none;
   width: 6.8em;
   color: white;
-  background-color: rgb(255, 98, 0);
+  background-color: rgb(35, 222, 2);
   font-family: "Roboto", sans-serif;
   font-size: large;
   cursor: pointer;
 }
 
-.box2 button a {
+.box2 div button a{
   color: white;
   text-decoration: none;
 }
