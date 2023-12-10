@@ -1,5 +1,5 @@
 # HOW TO USE THE PROJECT
-    - as XAMPP is used for database connectivity, you must need to add al files uploded to the following path -  C:\xampp\htdocs\web_development (NOTE: if you have installed XAMPP other than C drive, just note that you have to create a new folder in htdocs which us located in xampp folder, add all flies to that folder)
+    - as XAMPP is used for database connectivity, you must need to add all files uploded to the following path -  C:\xampp\htdocs\web_development (NOTE: if you have installed XAMPP other than C drive, just note that you have to create a new folder in htdocs which us located in xampp folder, add all flies to that folder)
     - to run the project you just need to type localhost/[folder name located in htdocs] (in my case it is localhost/web_develpoment) in url of the browser.
     - NOTE: before entering your URL, you need to run your XAMPP application and also start Apache and MySQL. MySQL to use the PHPMyAdmin.
 
@@ -20,7 +20,7 @@
     - Must contain at least one number
     - one uppercase and lowercase letter
     - at least 8 or more characters
-5. if password and confirm password dosen't matches thenit gives an warning.
+5. if password and confirm password dosen't matches then it gives an warning.
 6. forgot password can be done using 2 ways as follows:
     - using email
     - using mobile number
